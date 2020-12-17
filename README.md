@@ -9,5 +9,6 @@ It consist of the implementation of the Machine Learning algorithms by preproces
 
 # classify.py
 Based on the best accuracy acheived by the algorithm in th eacc_check.py, we select the algorithm to use for the testing phase against the student user grades form inserted by the user. This would result into the list of top 5 university that the student user can apply and would for sure get an Admit. This result list is stored locally into a csv file and is being show casted to the webpage. 
-https://github.com/nikkas27/University-Selection-System/blob/main/Output.png
+<img src="https://github.com/nikkas27/University-Selection-System/blob/main/Output.png" width="15%"></img> 
+
 

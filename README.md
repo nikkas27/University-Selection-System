@@ -7,4 +7,5 @@ It consist of the interface between the Flask and backend Python code. It define
 # acc_check.py
 It consist of the implementation of the Machine Learning algorithms by preprocessing the previous year students data of GRE, Quant, Verbal, TOEFL/ILETS, GPA, Percentage. It generates the graph indicating the best algorithm that can be used for the testing phase. The algorithms used for the training phase are Random Forest, K Nearest Neighbors, Naive Bayes. For the graph plotting, I have used Plotly library that displays the graph online and also is being saved locally.
 
-
+# classify.py
+Based on the best accuracy acheived by the algorithm in th eacc_check.py, we select the algorithm to use for the testing phase against the student user grades form inserted by the user. This would result into the list of top 5 university that the student user can apply and would for sure get an Admit. This result list is stored locally into a csv file and is being show casted to the webpage. 

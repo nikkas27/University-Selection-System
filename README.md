@@ -18,6 +18,6 @@ Based on the best accuracy acheived by the algorithm in th eacc_check.py, we sel
 <img src="https://github.com/nikkas27/University-Selection-System/blob/main/importance.png" width="90%"></img> 
 
 
-<img src="https://github.com/nikkas27/University-Selection-System/blob/main/Output.png" width="90%"></img> 
+<img src="https://github.com/nikkas27/University-Selection-System/blob/main/Output.png" width="45%"></img> 
 
 

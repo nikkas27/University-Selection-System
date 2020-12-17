@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="https://v40.pingendo.com/assets/4.0.0/default/theme.css" type="text/css"> </head>
+
+<body>
+  <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbar2SupportedContent">
+        <a><img  src="{{ url_for('static',filename='Icons/USS(16).png') }}"></a>
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+        </ul>
+        <a class="btn btn-default navbar-btn" href="/probability/">Probability Check</a>
+      </div>
+    </div>
+  </nav>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center">Top 50 Computer Science Universities in US</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="p-0" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <p align="center"><a class="btn btn-primary" href="/UniversityLists/">Go to University List </a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5" style="background-image: url({{ url_for('static', filename='images/Uni.jpg') }} );">
+    <div class="container" style="background-image: url({{ url_for('static', filename='images/whitebackground.jpg') }} );">
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">1 </p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Carnegie Mellon University </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">Pittsburgh, PA </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">2 </p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead"> Stanford University </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Stanford, CA&nbsp;</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">3 </p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">University of California--Berkeley </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Berkeley, CA </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">4 </p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Massachusetts Institute of Technology </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">Cambridge, MA </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">5 </p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Cornell University </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">Ithaca, NY </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">6 </p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">University of Illinois--Urbana-Champaign </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Champaign, IL </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">7 </p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">University of Washington </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">Seattle, WA </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">8 </p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Princeton University </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Princeton, NJ </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">9 </p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead"> University of Texas--Austin </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Austin, TX </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">10</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead"> Georgia Institute of Technology </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Atlanta, GA </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">11</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">California Institute of Technology </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">Pasadena, CA </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">12</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">University of Wisconsin--Madison </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Madison, WI </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">13</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">University of Michigan--Ann Arbor </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Ann Arbor, MI </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">14</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">University of California--Los Angeles </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Los Angeles, CA </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">15</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">University of California--San Diego </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> La Jolla, CA </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">16</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">University of Maryland--College Park </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">College Park, MD </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">17</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Columbia University </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">New York, NY </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">18</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Harvard University </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">Boston, MA </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">19</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">University of Pennsylvania </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">Philadelphia, PA </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">20</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Brown University </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Providence, RI </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">21</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Purdue University--West Lafayette </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">West Lafayette, IN </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">22</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Rice University </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">Houston, TX </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">23</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">University of Massachussetts - Amherst </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Amherst, MA </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">24</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">University of North Carolina--Chapel Hill </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">Chapel Hill, NC </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">25</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">University of Southern California </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Los Angeles, CA </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">26</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Yale University </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> New Haven, CT </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">27</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Duke University </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Durham, NC </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">28</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Johns Hopkins University </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">Baltimore, MD </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">29</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">New York University </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">New York, NY </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">30</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Ohio State University </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">Columbus, OH </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">31</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Pennsylvania State University--University Park </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">University Park, PA </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">32</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Rutgers, New Brunswick </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">Piscataway, NJ </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">33</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">University of California--Irvine </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">Irvine, CA </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">34</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">University of Virginia </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Charlottesville, VA </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">35</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Northwestern University </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Evanston, IL </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">36</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">University of California, Santa Barbara </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">Santa Barbara, CA </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">37</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">University of Chicago </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Chicago, IL </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">38</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">University of Minnesota--Twin Cities </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">Minneapolis, MN </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">39</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">University of California, Davis </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">Davis, CA </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">40</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">University of Colorado Boulder </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">Boulder, CO </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">41</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">University of Florida </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Gainesville, FL </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">42</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">University of Utah </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Salt Lake City, Utah </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">43</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Washington University in St. Louis </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> St. Louis, MO </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">44</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Dartmouth College </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Hanover, NH </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">45</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Stony Brook University--SUNY </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">Stony Brook, NY </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">46</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Virginia Tech </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Blacksburg, VA </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">47</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Boston University </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Boston, MA </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">48</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">North Carolina State University </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead"> Raleigh, NC </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">49</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Rensselaer Polytechnic Institute </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">Troy, NY </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="lead">50</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">Texas A&amp;M University--College Station </p>
+        </div>
+        <div class="col-md-4">
+          <p class="lead">College Station, TX </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

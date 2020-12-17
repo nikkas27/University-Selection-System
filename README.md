@@ -1,0 +1,2 @@
+# University-Selection-System
+Studying abroad comes with a lot of challenges and risks which involve huge investments of finance and time. This uncertainty needs to be addressed with a statistical model which can help students to narrow down on a set of Universities from a broader spectrum. This model accepts student information and based on data, which will be compared against university cut-off admission criteria of previous term to determine probability of a student to get an admit from the university to which student will be applying.
